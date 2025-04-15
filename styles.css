@@ -457,7 +457,7 @@ h3{
     padding-inline: 20px;
     caret-color: var(--secondary-color);
     transition: .4s;
-}
+} 
 .input-field:hover, textarea:hover{
     border-color: var(--accent-color);
 }
@@ -495,4 +495,24 @@ textarea{
     rotate: -45deg;
 }
 
+.service-box img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    margin-top: 1vw;
+}
+.service-box h3{
+
+margin-top: 2vw;
+}
+
+.service-box:hover{
+    scale: 120%;
+}
+.service-box{
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
 
